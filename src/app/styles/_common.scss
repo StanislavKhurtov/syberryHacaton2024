@@ -1,0 +1,26 @@
+// swiper
+
+.one.swiper {
+  overflow: visible;
+}
+
+.one .swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.one .image {
+  display: block;
+  width: 100%;
+  height: 40svh;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+//======
+
+.header__container {
+  border-bottom: 1px solid #36353e;
+}
